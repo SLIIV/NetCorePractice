@@ -103,3 +103,4 @@ D:\Projects\NetCorePractice\obj\Debug\net9.0\NetCorePractice.pdb
 D:\Projects\NetCorePractice\obj\Debug\net9.0\NetCorePractice.genruntimeconfig.cache
 D:\Projects\NetCorePractice\obj\Debug\net9.0\ref\NetCorePractice.dll
 D:\Projects\NetCorePractice\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+D:\Projects\NetCorePractice\obj\Debug\net9.0\NetCorePractice.sourcelink.json

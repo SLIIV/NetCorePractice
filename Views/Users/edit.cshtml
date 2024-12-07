@@ -1,0 +1,13 @@
+﻿@{
+    ViewData["Title"] = "Users";
+}
+@model UserModel
+<div class="text-center">
+    <h1 class="display-4">Редактирование пользоватея</h1>
+    <form asp-action="edit" asp-controller="Users" method="post">
+        <input type="type" asp-for="Name" value="@Model.Name" />
+        <input type="type" asp-for="Email" value="@Model.Email" />
+        <input type="submit" name="submit" value="Сохранить" />
+    </form>
+    
+</div>

@@ -19,6 +19,14 @@ public class HomeController : Controller
         return View(users);
     }
 
+    private static List<UserModel> GetUsers()
+    {
+        using (ApplicationContext context = new ApplicationContext())
+        {
+            return context.Users.ToList();
+        }
+    }
+
     [HttpPost]
     public IActionResult AddUser(UserModel user)
     {
@@ -27,14 +35,6 @@ public class HomeController : Controller
             context.Users.Add(user);
             context.SaveChanges();
             return Redirect("/");
-        }
-    }
-
-    private List<UserModel> GetUsers()
-    {
-        using (ApplicationContext context = new ApplicationContext())
-        {
-            return context.Users.ToList();
         }
     }
 
