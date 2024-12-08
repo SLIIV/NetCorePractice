@@ -3,26 +3,50 @@
 }
 @model List<UserModel>
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <div>Количество пользователей: @Model.Count</div>
-    <table border="1">
+    <h1 class="display-4">Список пользователей</h1>
+    <div class="display-5">Количество пользователей: @Model.Count</div>
+    <div
+        class="table-responsive"
+    >
+        <table
+            class="table table-primary"
+        >
+            <thead>
+                <tr>
+                    <th scope="col">Имя</th>
+                    <th scope="col">E-Mail</th>
+                    <th scope="col">Редактировать</th>
+                    <th scope="col">Удалить</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var user in Model)
+                {
+                    <tr>
+                        <td scope="row">@user.Name</td>
+                        <td scope="row">@user.Email</td>
+                        <td scope="row">
+                            <a asp-action="Edit" asp-controller="Users" asp-route-id="@user.Id">
+                                <button type="button">Редактировать</button>
+                            </a>
+                        </td>
+                        <td scope="row">
+                            <form asp-controller="Users" asp-action="Delete" asp-route-id="@user.Id" method="post">
+                                <button type="submit">Удалить</button>
+                            </form>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+        <a name="" id="" class="btn btn-primary" asp-action="Create" asp-controller="Users" role="button" >Создать пользователя</a>
+
+    </div>
+
+    <table>
         @foreach (var user in Model)
         {
-            <tr>
-                <td>@user.Name</td>
-                <td>@user.Email</td>
-                <td>
-                    <a asp-action="Edit" asp-controller="Users" asp-route-id="@user.Id">
-                        <button type="button">Редактировать</button>
-                    </a>
-                </td>
-                <td>
-                    <form asp-controller="Users" asp-action="Delete" asp-route-id="@user.Id" method="post">
-                        <button type="submit">Удалить</button>
-                    </form>
-                </td>
-                
-            </tr>
+
         }
     </table>
 </div>

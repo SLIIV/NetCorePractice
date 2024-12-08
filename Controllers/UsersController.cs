@@ -20,6 +20,11 @@ namespace NetCorePractice.Controllers
             }
         }
 
+        public IActionResult Create()
+        {
+            return View();
+        }
+
         [HttpPost]
         public IActionResult Create(UserModel user)
         {
@@ -57,7 +62,7 @@ namespace NetCorePractice.Controllers
         {
             using (ApplicationContext context = new ApplicationContext())
             {
-                if (id != null) 
+                if (id != null)
                 {
                     UserModel? user = await context.Users.FirstOrDefaultAsync(p => p.Id == id);
                     if (user != null) return View(user);

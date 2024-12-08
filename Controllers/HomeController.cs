@@ -19,11 +19,11 @@ public class HomeController : Controller
         return View(users);
     }
 
-    private static List<UserModel> GetUsers()
+    private List<UserModel> GetUsers()
     {
         using (ApplicationContext context = new ApplicationContext())
         {
-            return context.Users.ToList();
+            return context.Users.OrderBy(p=>p.Id).Reverse().ToList();
         }
     }
 
