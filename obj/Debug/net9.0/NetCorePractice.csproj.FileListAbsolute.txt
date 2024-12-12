@@ -103,3 +103,13 @@ D:\Projects\NetCorePractice\obj\Debug\net9.0\NetCorePractice.pdb
 D:\Projects\NetCorePractice\obj\Debug\net9.0\NetCorePractice.genruntimeconfig.cache
 D:\Projects\NetCorePractice\obj\Debug\net9.0\ref\NetCorePractice.dll
 D:\Projects\NetCorePractice\obj\Debug\net9.0\NetCorePractice.sourcelink.json
+D:\Projects\NetCorePractice\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Projects\NetCorePractice\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Projects\NetCorePractice\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Projects\NetCorePractice\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+D:\Projects\NetCorePractice\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+D:\Projects\NetCorePractice\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Projects\NetCorePractice\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+D:\Projects\NetCorePractice\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Projects\NetCorePractice\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+D:\Projects\NetCorePractice\obj\Debug\net9.0\compressed\n5q2746sjn-9a7k3a04dp.gz

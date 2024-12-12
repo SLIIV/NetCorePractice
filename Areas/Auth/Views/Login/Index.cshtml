@@ -1,0 +1,15 @@
+﻿@using NetCorePractice.Models
+@*
+    
+*@
+@{
+    ViewData["Title"] = "Авторизация";
+}
+@model UserModel
+<form action="/" method="post">
+    <input type="email" asp-for="Email" name="Email" id="email" value="" placeholder="email"/>
+    <input type="password" asp-for="Password" name="Password" id="password" value="" placeholder="password"/>
+    <input type="submit" id="login" name="submit" value="Войти" />
+</form>
+
+<script src="~/js/auth.js"></script>

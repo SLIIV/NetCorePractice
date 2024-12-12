@@ -1,9 +1,11 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using NetCorePractice.Models;
 
 namespace NetCorePractice.Controllers
 {
+    [Authorize]
     public class UsersController : Controller
     {
         public IActionResult Index()
