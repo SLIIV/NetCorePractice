@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets\\js\\auth.js"
     },
     {
+      "Id": "D:\\Projects\\NetCorePractice\\wwwroot\\js\\register.js",
+      "PackagePath": "staticwebassets\\js\\register.js"
+    },
+    {
       "Id": "D:\\Projects\\NetCorePractice\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

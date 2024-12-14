@@ -3,8 +3,6 @@ using NetCorePractice.Models;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using Microsoft.IdentityModel.Tokens;
-using System.Security.Cryptography;
-using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
 
 namespace NetCorePractice.Areas.Authorization.Controllers
@@ -25,6 +23,7 @@ namespace NetCorePractice.Areas.Authorization.Controllers
         {
             using (ApplicationContext context = new ApplicationContext())
             {
+                Encryptor encryptor = new Encryptor();
                 UserModel? user = context.Users.FirstOrDefault(p => p.Email == loginData.Email && p.Password == loginData.Password);
                 if (user == null) return Results.BadRequest();
                 var claims = new List<Claim> { new Claim(ClaimTypes.Name, user.Email) };

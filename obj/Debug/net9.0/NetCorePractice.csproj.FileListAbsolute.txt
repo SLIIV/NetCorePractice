@@ -113,3 +113,4 @@ D:\Projects\NetCorePractice\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
 D:\Projects\NetCorePractice\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
 D:\Projects\NetCorePractice\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 D:\Projects\NetCorePractice\obj\Debug\net9.0\compressed\n5q2746sjn-9a7k3a04dp.gz
+D:\Projects\NetCorePractice\obj\Debug\net9.0\compressed\fqgbwkh6k6-gbyhtt926g.gz

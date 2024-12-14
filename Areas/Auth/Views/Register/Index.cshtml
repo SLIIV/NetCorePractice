@@ -1,0 +1,17 @@
+﻿@using NetCorePractice.Models
+@*
+
+*@
+@{
+    ViewData["Title"] = "Регистрация";
+}
+@model UserModel
+<form action="/" id="registerForm" method="post">
+    <input type="text" name="Name" id="name" value="" placeholder="Имя пользователя" />
+    <input type="email" name="Email" id="email" value="" placeholder="email" />
+    <input type="password" name="Password" id="password" value="" placeholder="пароль" />
+    <input type="submit" id="register" name="submit" value="Зарегистрироватся" />
+</form>
+
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/js/register.js"></script>

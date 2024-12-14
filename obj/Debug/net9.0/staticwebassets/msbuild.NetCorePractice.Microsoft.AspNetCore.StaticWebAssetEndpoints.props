@@ -28,13 +28,25 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\auth.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"9a7k3a04dp"},{"Name":"integrity","Value":"sha256-H1NwangaIGvFg6nqY1MHrUnxrM0LZFf19/oNzIbiPrU="},{"Name":"label","Value":"_content/NetCorePractice/js/auth.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"602"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022H1NwangaIGvFg6nqY1MHrUnxrM0LZFf19/oNzIbiPrU=\u0022"},{"Name":"Last-Modified","Value":"Wed, 11 Dec 2024 23:58:16 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"602"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022H1NwangaIGvFg6nqY1MHrUnxrM0LZFf19/oNzIbiPrU=\u0022"},{"Name":"Last-Modified","Value":"Sat, 14 Dec 2024 10:28:10 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/NetCorePractice/js/auth.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\auth.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-H1NwangaIGvFg6nqY1MHrUnxrM0LZFf19/oNzIbiPrU="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"602"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022H1NwangaIGvFg6nqY1MHrUnxrM0LZFf19/oNzIbiPrU=\u0022"},{"Name":"Last-Modified","Value":"Wed, 11 Dec 2024 23:58:16 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"602"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022H1NwangaIGvFg6nqY1MHrUnxrM0LZFf19/oNzIbiPrU=\u0022"},{"Name":"Last-Modified","Value":"Sat, 14 Dec 2024 10:28:10 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/NetCorePractice/js/register.gbyhtt926g.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\register.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"gbyhtt926g"},{"Name":"integrity","Value":"sha256-BFcty3u7TBfLMP7Ugu12FQ07o6KXQmrJ5DyayVpvdpc="},{"Name":"label","Value":"_content/NetCorePractice/js/register.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1272"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022BFcty3u7TBfLMP7Ugu12FQ07o6KXQmrJ5DyayVpvdpc=\u0022"},{"Name":"Last-Modified","Value":"Sat, 14 Dec 2024 11:57:47 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/NetCorePractice/js/register.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\register.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-BFcty3u7TBfLMP7Ugu12FQ07o6KXQmrJ5DyayVpvdpc="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1272"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022BFcty3u7TBfLMP7Ugu12FQ07o6KXQmrJ5DyayVpvdpc=\u0022"},{"Name":"Last-Modified","Value":"Sat, 14 Dec 2024 11:57:47 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/NetCorePractice/js/site.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>

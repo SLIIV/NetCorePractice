@@ -25,6 +25,7 @@ D:\Projects\NetCorePractice\wwwroot\lib\jquery\dist\jquery.min.js
 D:\Projects\NetCorePractice\wwwroot\lib\jquery\dist\jquery.slim.min.js
 D:\Projects\NetCorePractice\wwwroot\lib\bootstrap\dist\js\bootstrap.js
 D:\Projects\NetCorePractice\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.min.js
+D:\Projects\NetCorePractice\wwwroot\js\register.js
 D:\Projects\NetCorePractice\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
 D:\Projects\NetCorePractice\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
 D:\Projects\NetCorePractice\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
@@ -64,6 +65,7 @@ D:\Projects\NetCorePractice\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
 wwwroot\css\site.css
 wwwroot\favicon.ico
 wwwroot\js\auth.js
+wwwroot\js\register.js
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map

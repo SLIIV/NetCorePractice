@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "jDzpjUuhFROfkmII2kOXU15Wr+S8+bC1gY5wCxeZrXA=",
+  "Hash": "cDDzo0Hr+6HSuKluq24x63kZqb/cn9GBLaiu4HD7QYw=",
   "Source": "NetCorePractice",
   "BasePath": "_content/NetCorePractice",
   "Mode": "Default",
@@ -603,6 +603,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\Projects\\NetCorePractice\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Identity": "D:\\Projects\\NetCorePractice\\obj\\Debug\\net9.0\\compressed\\fqgbwkh6k6-gbyhtt926g.gz",
+      "SourceId": "NetCorePractice",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\NetCorePractice\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/NetCorePractice",
+      "RelativePath": "js/register#[.{fingerprint=gbyhtt926g}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\Projects\\NetCorePractice\\wwwroot\\js\\register.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "5l0pg49mm9",
+      "Integrity": "OX9hW5uSdFUNTJ5Dgg5wVz7fdl3TvW90Uk8wa37EMuo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\Projects\\NetCorePractice\\wwwroot\\js\\register.js"
     },
     {
       "Identity": "D:\\Projects\\NetCorePractice\\obj\\Debug\\net9.0\\compressed\\g671tcjj8q-pl0q8s8tdl.gz",
@@ -1485,6 +1506,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\auth.js"
+    },
+    {
+      "Identity": "D:\\Projects\\NetCorePractice\\wwwroot\\js\\register.js",
+      "SourceId": "NetCorePractice",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\NetCorePractice\\wwwroot\\",
+      "BasePath": "_content/NetCorePractice",
+      "RelativePath": "js/register#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gbyhtt926g",
+      "Integrity": "BFcty3u7TBfLMP7Ugu12FQ07o6KXQmrJ5DyayVpvdpc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\register.js"
     },
     {
       "Identity": "D:\\Projects\\NetCorePractice\\wwwroot\\js\\site.js",
@@ -3390,7 +3432,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 11 Dec 2024 23:58:16 GMT"
+          "Value": "Sat, 14 Dec 2024 10:28:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3451,7 +3493,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 11 Dec 2024 23:58:16 GMT"
+          "Value": "Sat, 14 Dec 2024 10:28:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3496,7 +3538,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 11 Dec 2024 23:58:16 GMT"
+          "Value": "Sat, 14 Dec 2024 10:28:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3551,7 +3593,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 11 Dec 2024 23:58:16 GMT"
+          "Value": "Sat, 14 Dec 2024 10:28:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3604,7 +3646,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 11 Dec 2024 23:58:16 GMT"
+          "Value": "Sat, 14 Dec 2024 10:28:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3641,7 +3683,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 11 Dec 2024 23:58:16 GMT"
+          "Value": "Sat, 14 Dec 2024 10:28:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3660,6 +3702,304 @@
         {
           "Name": "integrity",
           "Value": "sha256-csG4Q9ojEDxuMq5NE3/yTw8vZL7K5TMLez20KS/lqxI="
+        }
+      ]
+    },
+    {
+      "Route": "js/register.gbyhtt926g.js",
+      "AssetFile": "D:\\Projects\\NetCorePractice\\obj\\Debug\\net9.0\\compressed\\fqgbwkh6k6-gbyhtt926g.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001824817518"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "547"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OX9hW5uSdFUNTJ5Dgg5wVz7fdl3TvW90Uk8wa37EMuo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 11:57:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"BFcty3u7TBfLMP7Ugu12FQ07o6KXQmrJ5DyayVpvdpc=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gbyhtt926g"
+        },
+        {
+          "Name": "label",
+          "Value": "js/register.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-BFcty3u7TBfLMP7Ugu12FQ07o6KXQmrJ5DyayVpvdpc="
+        }
+      ]
+    },
+    {
+      "Route": "js/register.gbyhtt926g.js",
+      "AssetFile": "D:\\Projects\\NetCorePractice\\wwwroot\\js\\register.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1272"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BFcty3u7TBfLMP7Ugu12FQ07o6KXQmrJ5DyayVpvdpc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 11:57:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gbyhtt926g"
+        },
+        {
+          "Name": "label",
+          "Value": "js/register.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-BFcty3u7TBfLMP7Ugu12FQ07o6KXQmrJ5DyayVpvdpc="
+        }
+      ]
+    },
+    {
+      "Route": "js/register.gbyhtt926g.js.gz",
+      "AssetFile": "D:\\Projects\\NetCorePractice\\obj\\Debug\\net9.0\\compressed\\fqgbwkh6k6-gbyhtt926g.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "547"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OX9hW5uSdFUNTJ5Dgg5wVz7fdl3TvW90Uk8wa37EMuo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 11:57:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gbyhtt926g"
+        },
+        {
+          "Name": "label",
+          "Value": "js/register.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-OX9hW5uSdFUNTJ5Dgg5wVz7fdl3TvW90Uk8wa37EMuo="
+        }
+      ]
+    },
+    {
+      "Route": "js/register.js",
+      "AssetFile": "D:\\Projects\\NetCorePractice\\obj\\Debug\\net9.0\\compressed\\fqgbwkh6k6-gbyhtt926g.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001824817518"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "547"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OX9hW5uSdFUNTJ5Dgg5wVz7fdl3TvW90Uk8wa37EMuo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 11:57:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"BFcty3u7TBfLMP7Ugu12FQ07o6KXQmrJ5DyayVpvdpc=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-BFcty3u7TBfLMP7Ugu12FQ07o6KXQmrJ5DyayVpvdpc="
+        }
+      ]
+    },
+    {
+      "Route": "js/register.js",
+      "AssetFile": "D:\\Projects\\NetCorePractice\\wwwroot\\js\\register.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1272"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BFcty3u7TBfLMP7Ugu12FQ07o6KXQmrJ5DyayVpvdpc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 11:57:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-BFcty3u7TBfLMP7Ugu12FQ07o6KXQmrJ5DyayVpvdpc="
+        }
+      ]
+    },
+    {
+      "Route": "js/register.js.gz",
+      "AssetFile": "D:\\Projects\\NetCorePractice\\obj\\Debug\\net9.0\\compressed\\fqgbwkh6k6-gbyhtt926g.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "547"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OX9hW5uSdFUNTJ5Dgg5wVz7fdl3TvW90Uk8wa37EMuo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 11:57:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OX9hW5uSdFUNTJ5Dgg5wVz7fdl3TvW90Uk8wa37EMuo="
         }
       ]
     },
